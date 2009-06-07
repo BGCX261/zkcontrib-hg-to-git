@@ -7,7 +7,7 @@
 def to_unicode(*args):
     return map(lambda x: unicode(x, 'utf-8'), args)
 
-cn_digits = to_unicode('零', '一', '二', '三', '四', '五', '六', '七', '八', '九'))
+cn_digits = to_unicode('零', '一', '二', '三', '四', '五', '六', '七', '八', '九')
 cn_quantifier = to_unicode('十', '百', '千', '万', '亿 ')
 
 def get_index(cndigit):
